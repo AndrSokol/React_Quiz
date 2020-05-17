@@ -7,7 +7,7 @@ const Button = (props) => {
         classes[props.type]
     ]
   return (
-    <button onClick={props.onRetry} 
+    <button onClick={props.onClick} 
     className={cls.join(' ')}
     disabled={props.disabled}>
       {props.children}
